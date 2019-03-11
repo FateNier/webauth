@@ -1,0 +1,12 @@
+/BeginMakeCredential
+request:{advanced: true ,advancedOptions: {}}
+respone:{"rp":{"id":"localhost","name":"webauthn-demo"},"user":{"name":"test@example.com","displayName":"test@example.com","id":"dGVzdEBleGFtcGxlLmNvbQ=="},"challenge":"Wlx0o5R6PcheDNRXgHLS3xsRJrAzJ7Zxn3c0+JihJCk=","pubKeyCredParams":[{"type":"public-key","alg":-7},{"type":"public-key","alg":-35},{"type":"public-key","alg":-36},{"type":"public-key","alg":-257},{"type":"public-key","alg":-258},{"type":"public-key","alg":-259},{"type":"public-key","alg":-37},{"type":"public-key","alg":-38},{"type":"public-key","alg":-39}],"authenticatorSelection":{"requireResidentKey":false},"session":{"id":4855443348258816,"challenge":"Wlx0o5R6PcheDNRXgHLS3xsRJrAzJ7Zxn3c0+JihJCk=","origin":"localhost"}}
+
+/FinishMakeCredential
+request:data: {"id":"AGlOhsCrn4hzbsePLQXUR8OeJOPZhwOncxlgpHEhgMBRI7PDj1k3DeDdOUtbPSnUYip_osEjTmqW5MNObTcmxHcaCoS4jHM2rFCoJPZZ8zfu","type":"public-key","rawId":"AGlOhsCrn4hzbsePLQXUR8OeJOPZhwOncxlgpHEhgMBRI7PDj1k3DeDdOUtbPSnUYip/osEjTmqW5MNObTcmxHcaCoS4jHM2rFCoJPZZ8zfu","response":{"clientDataJSON":"eyJjaGFsbGVuZ2UiOiJXbHgwbzVSNlBjaGVETlJYZ0hMUzN4c1JKckF6SjdaeG4zYzAtSmloSkNrIiwibmV3X2tleXNfbWF5X2JlX2FkZGVkX2hlcmUiOiJkbyBub3QgY29tcGFyZSBjbGllbnREYXRhSlNPTiBhZ2FpbnN0IGEgdGVtcGxhdGUuIFNlZSBodHRwczovL2dvby5nbC95YWJQZXgiLCJvcmlnaW4iOiJodHRwOi8vbG9jYWxob3N0OjgwODAiLCJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIn0=","attestationObject":"o2NmbXRmcGFja2VkZ2F0dFN0bXSiY2FsZyZjc2lnWEYwRAIgWE3AnOXTuXEYtB5g2HRIuxYiC9bYRLCEM+fVjfLo1u0CIBfeuq/VlnNPusF50iIAt7MYIyfzdlTIbCgM4UBUba24aGF1dGhEYXRhWNVJlg3liA6MaHQ0Fw9kdmBbj+SuuaKGMseZXPO6gx2XY0Vcho/1AAAAAAAAAAAAAAAAAAAAAABRAGlOhsCrn4hzbsePLQXUR8OeJOPZhwOncxlgpHEhgMBRI7PDj1k3DeDdOUtbPSnUYip/osEjTmqW5MNObTcmxHcaCoS4jHM2rFCoJPZZ8zfupQECAyYgASFYINrR7IPoC0Z8QnOGconZVLUADWi2mAgO/HABGpKUa0gpIlggkzhiXc5uMBerZidsf1+ON176Z8se9eLtABaP3kfFSwY="}}
+session: 4855443348258816
+response:{"success":true,"message":"Successfully created credential"}
+
+/RegisteredKeys
+request:
+response:[{"handle":"00694E86C0AB9F88736EC78F2D05D447C39E24E3D98703A7731960A4712180C05123B3C38F59370DE0DD394B5B3D29D4622A7FA2C1234E6A96E4C34E6D3726C4771A0A84B88C7336AC50A824F659F337EE","publicKey":"alg:ES256 x:DAD1EC83E80B467C4273867289D954B5000D68B698080EFC70011A92946B4829 y:9338625DCE6E3017AB66276C7F5F8E375EFA67CB1EF5E2ED00168FDE47C54B06","name":"Packed Attestation","date":"Tue Mar 12 00:42:29 CST 2019","id":5981343255101440,"hasCable":false}]
